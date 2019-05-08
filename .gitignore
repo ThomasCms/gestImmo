@@ -34,6 +34,8 @@ yarn-error.log
 
 gestimmo.lxc.crt
 gestimmo.lxc.key
+localhost.crt
+localhost.key
 ###> friendsofphp/php-cs-fixer ###
 /.php_cs
 /.php_cs.cache
