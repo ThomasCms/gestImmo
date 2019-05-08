@@ -99,9 +99,9 @@ class PropertyType extends AbstractType
                 'expanded' => true,
                 'by_reference' => false,
                 'choice_label' => 'fullName',
-                'query_builder' => function (LesseeRepository $propertyRepository) {
+                'query_builder' => function (LesseeRepository $lesseeRepository) {
                     $user = $this->token->getToken()->getUser();
-                    return $propertyRepository->findLessesByUser($user);
+                    return $lesseeRepository->findLessesByUser($user);
                 },
             ])
             ->add('pdfFile', FileType::class, [
