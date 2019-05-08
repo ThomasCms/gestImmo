@@ -6,7 +6,12 @@ before_script:
     - if [ -d "./.env.local" ]; then echo "Forbidden configuration file found !"; exit 2; fi
     - if [ -d "./node_modules" ]; then echo "Forbidden node_modules folder found !"; exit 2; fi
     - if [ -d "./public/build" ]; then echo "Forbidden public/build folder found !"; exit 2; fi
+before_install:
+  - sudo add-apt-repository ppa:ondrej/php -y
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libsodium-devv
 install:
+  - printf "\n" | pecl install libsodium
   - composer require squizlabs/php_codesniffer 3.2
 script:
 - vendor/bin/phpcs --standard=PSR2 --ignore=src/Migrations src/
