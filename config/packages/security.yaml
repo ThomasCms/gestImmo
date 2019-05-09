@@ -28,6 +28,7 @@ security:
                 secret:   '%kernel.secret%'
                 lifetime: 2628000 # 1 month in seconds
                 path: /
+                samesite: 'strict'
                 # by default, the feature is enabled by checking a
                 # checkbox in the login form (see below), uncomment the
                 # following line to always enable it.
