@@ -1,7 +1,7 @@
 ### gestImmo
 A real estate and tenant manage
 
-[![Build Status](https://travis-ci.org/ThomasCms/gestImmo.png?branch=master)](https://travis-ci.org/ThomasCms/gestImmo)
+[![Build Status](https://travis-ci.com/ThomasCms/gestImmo.png?branch=master)](https://travis-ci.com/ThomasCms/gestImmo)
 
 **Minimum requirements :**
 * composer (global install)
