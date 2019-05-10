@@ -1,8 +1,11 @@
 ### gestImmo
 A real estate and tenant manage
 
+[![Build Status](https://travis-ci.com/ThomasCms/gestImmo.png?branch=master)](https://travis-ci.com/ThomasCms/gestImmo)
+
 **Minimum requirements :**
 * composer (global install)
+* yarn/npm (global install)
 * PHP 7.2.17 (or more)
 * HTTPS
 
