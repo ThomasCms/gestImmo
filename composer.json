@@ -6,7 +6,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "beberlei/doctrineextensions": "^1.2",
-        "knplabs/knp-paginator-bundle": "^3.0",
+        "knplabs/knp-paginator-bundle": "^4.0",
         "knplabs/knp-snappy-bundle": "^1.6",
         "knpuniversity/oauth2-client-bundle": "^1.27",
         "league/oauth2-facebook": "^2.0",
