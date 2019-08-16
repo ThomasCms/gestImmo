@@ -4,10 +4,10 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c464ed676ffd2dc403ad49cf1addef9",
+    "content-hash": "dfca20f60a2f21768e6865830e39f0ce",
     "packages": [
         {
-            "name": "beberlei/DoctrineExtensions",
+            "name": "beberlei/doctrineextensions",
             "version": "v1.2.1",
             "source": {
                 "type": "git",
@@ -1951,14 +1951,14 @@
             "authors": [
                 {
                     "name": "Alex Bilbie",
+                    "role": "Developer",
                     "email": "hello@alexbilbie.com",
-                    "homepage": "http://www.alexbilbie.com",
-                    "role": "Developer"
+                    "homepage": "http://www.alexbilbie.com"
                 },
                 {
                     "name": "Woody Gilk",
-                    "homepage": "https://github.com/shadowhand",
-                    "role": "Contributor"
+                    "role": "Contributor",
+                    "homepage": "https://github.com/shadowhand"
                 }
             ],
             "description": "OAuth 2.0 Client Library",
@@ -3416,16 +3416,16 @@
         },
         {
             "name": "symfony/dotenv",
-            "version": "v4.2.8",
+            "version": "v4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dotenv.git",
-                "reference": "b541d63b83532be55a020db8ed2e50598385a583"
+                "reference": "c9ea2a1c60e7db08c1d1379cd4448fd14bda11eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dotenv/zipball/b541d63b83532be55a020db8ed2e50598385a583",
-                "reference": "b541d63b83532be55a020db8ed2e50598385a583",
+                "url": "https://api.github.com/repos/symfony/dotenv/zipball/c9ea2a1c60e7db08c1d1379cd4448fd14bda11eb",
+                "reference": "c9ea2a1c60e7db08c1d1379cd4448fd14bda11eb",
                 "shasum": ""
             },
             "require": {
@@ -3437,7 +3437,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -3469,7 +3469,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2019-04-01T07:32:59+00:00"
+            "time": "2019-06-26T06:50:02+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -6101,19 +6101,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
+                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "homepage": "http://fabien.potencier.org"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "role": "Project Founder",
+                    "email": "armin.ronacher@active-4.com"
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
-                    "role": "Contributors"
+                    "role": "Contributors",
+                    "homepage": "https://twig.symfony.com/contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
